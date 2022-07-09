@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Smooch&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    background-color: rgb(28, 13, 1);
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header {
+    min-height: 70vh;
+    background: url("bg7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(222, 150, 26);
+}
+
+.text {
+    font-family: 'Smooch', cursive;
+    position: absolute;
+    top: 350px;
+    left: 16px;
+    color: bisque;
+    font-size: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+
+.nav {
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    width: 40%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.a1 img {
+    width: 418px;
+    height: 241px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.a2 {
+    width: 31%;
+    padding: 22px;
+    text-align: center;
+    float: left;
+}
+
+.a3 {
+    width: 37%;
+    padding: 22px;
+    text-align: center;
+    float: left;
+}
+
+.a4 {
+    width: 30%;
+    padding: 22px;
+    text-align: center;
+    float: left;
+}
+
+
+/* .text2 {
+    width: 320px;
+    padding: 22px;
+    border: 5px solid gray;
+    margin: 0;
+    text-align: center;
+} */
+
+
+/* .text3 {
+    float: center;
+    width: 320px;
+    padding: 22px;
+    border: 5px solid gray;
+    margin: 0;
+    text-align: center;
+} */
